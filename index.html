@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terrenos Houston galeria</title>
-    <link rel="shortcut icon" href="https://i.pinimg.com/736x/b3/eb/56/b3eb564e17d040817faead1d843c3bae.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Terrenos Galeria</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
+
+
 </head>
 <body>
+
+<div class="container gallery-container">
     
-    <div class="grid-gallery">
-        <a href="#" class="grid-gallery_item">
-            <img src="https://i.pinimg.com/736x/b3/eb/56/b3eb564e17d040817faead1d843c3bae.jpg" alt="" class="grid-gallery_image">
-        </a>
-        <a href="" class="grid-gallery_item">
-            <img src="https://i.pinimg.com/736x/b3/eb/56/b3eb564e17d040817faead1d843c3bae.jpg" alt="" class="grid-gallery_image">
-        </a>
+    <div class="tz-gallery">
+
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="pruev/p1.jpeg">
+                    <img src="img/p1.jpeg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="pruev/p1.jpeg">
+                    <img src="img/p1.jpeg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="pruev/p1.jpeg">
+                    <img src="img/p2.jpeg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="pruev/p1.jpeg">
+                    <img src="img/p1.jpeg" alt="Sky">
+                </a>
+            </div>
+
+        </div>
+
     </div>
 
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>
